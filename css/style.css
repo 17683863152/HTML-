@@ -1,0 +1,147 @@
+*{margin: 0px;padding: 0px}
+a{text-decoration: none;}
+ul{list-style: none;}
+a{text-decoration: none;color: #ffffff}
+.clear1{clear: both;}
+.centent{width: 1226px;margin:0px auto;}
+.header{width:100%;height:40px;background:#333333;}
+.header_ul_1{height:40px;float: left;}
+.header_ul_1 li {float: left; line-height: 38px;margin-left:6px;}
+.header_ul_1 li a{color: #B0B0B0;font-size: 13px;}
+.header_ul_1 li a span{margin-left:5px;color: #424242;}
+/*鼠标移动到导航文字时，a元素字体变为白色*/
+.header_ul_1 li a:hover{color: #ffffff}
+.header_ul_2{height:40px;float: right;}
+.header_ul_2 li {float: left; line-height: 38px;}
+.header_ul_2 li a{color: #B0B0B0;font-size: 13px;}
+.header_ul_2 li a span{margin-right:5px;margin-left:5px;color: #424242;}
+/*鼠标移动到导航文字时，a元素字体变为白色，元素为：hover*/
+.shop_0 a:hover{color: #FFFFFF;}
+.header_ul_2{background: #333333;padding-left: 3px;}
+.shop  a  i{margin-left: 20px;}
+.shop  a{font-size: 13px;}
+.shop {background: #424242;width: 120px;height:40px;list-style: none;}
+.shop:hover a{color: #FF6700;}
+.shop:hover {background: #FFFFFF;}
+/*设置display：none则div默认不显示*/
+.xiaoxi{background: #ffffff;height: 70px;display: none;margin-left: -65px;margin-top:10px;padding-top:20px;font-size: 12px;}
+/*鼠标移动到购物车显示的消息盒子，设置displa：block显示div*/
+.shop:hover div{display: block;}
+/*设置清除浮动*/
+.clear{clear: both;}
+.content_top{width:100%;}
+.content_menu{width:100%;height: 100px;position: relative;}
+.content_menu_logo{width:55px;height:55px;background: #FF6700;margin-top:17px;float: left;}
+.content_menu_logo img{margin-top:3px;margin-left:3px;}
+.content_menu_a{float: left;margin-left:189px;margin-top: 34px}
+.content_menu_a_li li{float: left;padding-right:18px;}
+.content_menu_a_li li a{color: #333333;}
+.mi_1_1 img{margin-top: 35px;}
+.xinping{color: #FF6700;font-size: 12px;margin-top: 0px;border: 1px solid #FF6700;width: 66px;height:22px;float: right;margin-right: 50px}
+.mi_1_xinping{width: 800px;height: 24px;}
+.mingcheng{color: #333333;font-size: 12px;margin-top:12px;position:absolute;left: 60px;}
+.jiage{color: #FF6700;font-size: 13px;margin-top:3px;position:absolute;left: 46px;}
+.mi_1{width:100%;height: 228px;background: #FFFFFF;border: 1px solid #D4D4D4;position:absolute;top: 95px;display: none;}
+.xiaomishouji:hover .mi_1{display: block;}
+.mi_1_1{float: left;}
+.content_menu_so{height: 50;width: 294px;float: right;}
+.content_menu_so input{margin-top:20px;border: 1px solid #E0E0E0;width: 240px;height: 50px;}
+.content_menu_so button{width: 52px;height: 52px;border: 1px solid #E0E0E0;background: #FFFFFF;float: right;margin-top: 20px;}
+.content_menu_so button i{color: #757575}
+.content_menu_so  input:hover {border: 1px solid #B0B0B0;}
+.content_menu_so button:hover{border: 1px solid #B0B0B0;}
+/*.content_a_div{width: 1500px;height:226px;background: #333333;padding-left:10px;display:}*/
+/*要设置div透明程度用backg：rgba(x.x.x.1)前面是rgb颜色代码，值越小越黑，最后的0.6是透明系数，越小越透明*/
+.pic_div{width:235px;height:460px;background: rgba(10,10,10,0.6);}
+.pic_div_ul li a{margin-left:30px;margin-top:10px;}
+.pic_div_ul{color: #FFFFFF;padding-top: 21px;font-size: 14px;}
+/*让li标签的字与上面有距离要用标签line-height*/
+.pic_div_ul li{width: 100%;height: 42px;line-height: 38px;}
+.pic_div_ul li i{margin-left: 100px;color: #B6B9C3;}
+.pic_div_ul li:hover{background: #FF6700}
+.content_bottom{width:100%;}
+.footer_top{width:100%;height: 500px}
+.footer_bottom{width:100%;height:500px;background:#1B2B34;}
+.content{width:1226px;margin: 0px auto}
+.content_menu{width: 1226px;height:90px;margin: 5px auto;}
+.content_pic{width: 1226px;height:460px;background: url(../img/shouyedatu.jpg);}
+/*首页图下面的四个板块*/
+.content_shop{width:1226px;height:170px;margin: 14px auto;}
+/*这个板块还没有做*/
+.content_shop_0{width:234px;height:170px;margin-right: 14px;background: #5F5750;float: left;}
+/*首页图下面的三个图片板块*/
+.content_shop_1{width:316px;height:170px;margin-right: 15px;background: url(../img/buy1.jpg);float: left;}
+.content_shop_2{width:316px;height:170px;margin-right: 15px;background: url(../img/buy2.jpg);float: left;}
+.content_shop_3{width:316px;height:170px;background: url(../img/buy3.jpg);float: left;}
+/*黑鲨游戏手机活动*/
+.huodong1{width:1226px;height:120px;background: url(../img/buy4.jpg);margin:26px auto; }
+.content_bottom_shouji{width:1226px;margin:0px auto;}
+.content_bottom_shouji_menu{width:1226px;height: 79px;margin:17px auto;background: #707BC5;}
+.content_bottom_shouji_shop{width:1226px;height: 628px;margin:0px auto;}
+.content_bottom_shouji_shop_1{width: 234px;height: 614px;background: url(../img/buy5.jpg);float: left;}
+.content_bottom_shouji_shop_2{width: 992px;height: 614px;float: left;}
+.content_bottom_shouji_shop_2top{width:992px;height: 300px;}
+.content_bottom_shouji_shop_2bottom{width:992px;height: 300px;margin-top:14px;}
+.content_bottom_shouji_shop_2_1{width: 234px;height: 300px;background: url(../img/buy6.jpg);float:left;margin-right: 18.7px;}
+.content_bottom_shouji_shop_2_2{width: 234px;height: 300px;background: url(../img/buy7.jpg);float:left;margin-right: 18.7px;}
+.content_bottom_shouji_shop_2_3{width: 234px;height: 300px;background: url(../img/buy8.jpg);float:left;margin-right: 18.6px;}
+.content_bottom_shouji_shop_2_4{width: 234px;height: 300px;background: url(../img/buy9.png);float:left;}
+.content_bottom_shouji_shop_2_5{width: 234px;height: 300px;background: url(../img/buy10.png);float:left;margin-right: 18.7px;}
+.content_bottom_shouji_shop_2_6{width: 234px;height: 300px;background: url(../img/buy11.jpg);float:left;margin-right: 18.7px;}
+.content_bottom_shouji_shop_2_7{width: 234px;height: 300px;background: url(../img/buy12.jpg);float:left;margin-right: 18.6px;}
+.content_bottom_shouji_shop_2_8{width: 234px;height: 300px;background: url(../img/buy13.jpg);float:left;}
+.content_bottom_shouji_img{width: 1226px;height: 120px;background: url(../img/huodong2.jpg);margin-top: 28px}
+.content_bottom_jiadian{width:1226px;margin:0px auto;}
+.content_bottom_jiadian_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_jiadian_shop{width:1226px;margin:10px auto;}
+.content_bottom_jiadian_shop_top{width:1226px;height: 300px;}
+.content_bottom_jiadian_shop_bottom{width:1226px;height: 300px;margin-top:28px;}
+.content_bottom_jiadian_shop_top1{width: 234px;height: 300px;background: url(../img/jiadian1.jpg);margin-top:7px;float: left;margin-right:96px;}
+.content_bottom_jiadian_shop_top2{width: 234px;height: 300px;background: url(../img/jiadian1.jpg);margin-top:7px;float: left;}
+.content_bottom_jiadian_shop_bottom1{width: 234px;height: 300px;background: url(../img/jiadian2.jpg);margin-top:-7px;margin-right:96px;float: left;}
+.content_bottom_jiadian_shop_bottom2{width: 234px;height: 300px;background: url(../img/jiadian2.jpg);margin-top:-7px;float: left;}
+.content_bottom_jiadian_img{width: 1226px;height: 120px;background: url(../img/jiadianad.jpg);margin-top: 35px}
+.content_bottom_zhineng{width:1226px;margin:0px auto;}
+.content_bottom_zhineng_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_zhineng_shop{width:1226px;margin:10px auto;}
+.content_bottom_zhineng_shop_top{width:1226px;height: 300px;}
+.content_bottom_zhineng_shop_bottom{width:1226px;height: 300px;margin-top:28px;}
+.content_bottom_zhineng_shop_top1{width: 234px;height: 300px;background: url(../img/zhineng1.jpg);margin-top:7px;float: left;margin-right:96px;}
+.content_bottom_zhineng_shop_top2{width: 234px;height: 300px;background: url(../img/zhineng1.jpg);margin-top:7px;float: left;}
+.content_bottom_zhineng_shop_bottom1{width: 234px;height: 300px;background: url(../img/zhineng2.jpg);margin-top:-7px;margin-right:96px;float: left;}
+.content_bottom_zhineng_shop_bottom2{width: 234px;height: 300px;background: url(../img/zhineng2.jpg);margin-top:-7px;float: left;}
+.content_bottom_zhineng_img{width: 1226px;height: 120px;background: url(../img/zhineng.jpg);margin-top: 35px}
+.content_bottom_dapei{width:1226px;margin:0px auto;}
+.content_bottom_dapei_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_dapei_shop{width:1226px;margin:10px auto;}
+.content_bottom_dapei_shop_top{width:1226px;height: 300px;}
+.content_bottom_dapei_shop_bottom{width:1226px;height: 300px;margin-top:28px;}
+.content_bottom_dapei_shop_top1{width: 234px;height: 300px;background: url(../img/dapei1.jpg);margin-top:7px;float: left;margin-right:96px;}
+.content_bottom_dapei_shop_top2{width: 234px;height: 300px;background: url(../img/dapei1.jpg);margin-top:7px;float: left;}
+.content_bottom_dapei_shop_bottom1{width: 234px;height: 300px;background: url(../img/dapei2.jpg);margin-top:-7px;margin-right:96px;float: left;}
+.content_bottom_dapei_shop_bottom2{width: 234px;height: 300px;background: url(../img/dapei2.jpg);margin-top:-7px;float: left;}
+.content_bottom_dapei_img{width: 1226px;height: 120px;background: url(../img/dapei.jpg);margin-top: 35px}
+.content_bottom_peijian{width:1226px;margin:0px auto;}
+.content_bottom_peijian_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_peijian_shop{width:1226px;margin:10px auto;}
+.content_bottom_peijian_shop_top{width:1226px;height: 300px;}
+.content_bottom_peijian_shop_bottom{width:1226px;height: 300px;margin-top:28px;}
+.content_bottom_peijian_shop_top1{width: 234px;height: 300px;background: url(../img/peijian1.jpg);margin-top:7px;float: left;margin-right:96px;}
+.content_bottom_peijian_shop_top2{width: 234px;height: 300px;background: url(../img/peijian1.jpg);margin-top:7px;float: left;}
+.content_bottom_peijian_shop_bottom1{width: 234px;height: 300px;background: url(../img/peijian2.jpg);margin-top:-7px;margin-right:96px;float: left;}
+.content_bottom_peijian_shop_bottom2{width: 234px;height: 300px;background: url(../img/peijian2.jpg);margin-top:-7px;float: left;}
+.content_bottom_peijian_img{width: 1226px;height: 120px;background: url(../img/peijian.jpg);margin-top: 35px}
+.content_bottom_zhoubian{width:1226px;margin:0px auto;}
+.content_bottom_zhoubian_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_zhoubian_shop{width:1226px;margin:10px auto;}
+.content_bottom_zhoubian_shop_top{width:1226px;height: 300px;}
+.content_bottom_zhoubian_shop_bottom{width:1226px;height: 300px;margin-top:28px;}
+.content_bottom_zhoubian_shop_top1{width: 234px;height: 300px;background: url(../img/zhoubian1.jpg);margin-top:7px;float: left;margin-right:96px;}
+.content_bottom_zhoubian_shop_top2{width: 234px;height: 300px;background: url(../img/zhoubian1.jpg);margin-top:7px;float: left;}
+.content_bottom_zhoubian_shop_bottom1{width: 234px;height: 300px;background: url(../img/zhoubian2.jpg);margin-top:-7px;margin-right:96px;float: left;}
+.content_bottom_zhoubian_shop_bottom2{width: 234px;height: 300px;background: url(../img/zhoubian2.jpg);margin-top:-7px;float: left;}
+.content_bottom_zhoubian_img{width: 1226px;height: 120px;background: url(../img/zhoubian.jpg);margin-top: 35px}
+.content_bottom_tuijian_menu{width:1226px;height: 53px;margin:10px auto;background: #707BC5;}
+.content_bottom_tuijian_shop{width: 1226px;height: 320px;background:#FF9800;margin:0px auto;}
+.content_bottom_tuijian_shop_top1{width: 234px;height: 300px;background:url(../img/cs1.png);float: left;margin-right:96.6px;margin-top:15px;}
+.content_bottom_tuijian_shop_top2{width: 234px;height: 300px;background:url(../img/cs1.png);float: left;margin-top:15px;}
